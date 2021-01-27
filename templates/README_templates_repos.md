@@ -12,9 +12,9 @@
 ### Install
 
 ```shell
-$ npm i @kb/dot-conf
+$ npm i @kb/name
 ```
 
 <br />
 
-# `@kb/dot-conf`
+# `@kb/name`
