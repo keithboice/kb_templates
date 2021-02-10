@@ -1,22 +1,48 @@
-{{> logo logo=.}}
+<br />
 
-{{> badges badges=.}}
+[![logo](https://github.com/keithboice/kb_template_github/blob/main/_hero.png?raw=true)](https://raw.githubusercontent.com/keithboice/.github/docs/assets/logo.png)
+
+<br />
+
+<br />
+
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/keithboice/kb?sort=semver&style=for-the-badge)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/keithboice/kb/ci?style=for-the-badge)
+![nycrc config on GitHub](https://img.shields.io/nycrc/keithboice/kb?config=.nycrc&preferredThreshold=branches&style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues-raw/keithboice/kb?style=for-the-badge)
 
 ---
 
-## Getting Started
 
-{{> install name=name}}
+# @kb/name
 
-<br />
 
-{{> documentation documentation=.}}
-
-{{> examples examples=.}}
-
-{{> releases releases=.}}
+description
 
 <br />
 
 
-# `@kb/{{name}}`
+## Documentation
+
+
+{{>main}}
+
+<br />
+
+---
+
+<p align="center">
+
+[![Made with JSDoc](https://img.shields.io/badge/uses-DocumentationJS-e3f2fd.svg?style=for-the-badge)](https://github.com/jsdoc/jsdoc)
+[![Made with JSDoc2md](https://img.shields.io/badge/uses-JSDoc2md-c5cae9.svg?style=for-the-badge)](https://github.com/jsdoc2md/jsdoc-to-markdown)  
+[![Made with JSDoc](https://img.shields.io/badge/made_with-JSDoc-bbdefb.svg?style=for-the-badge)](https://github.com/jsdoc/jsdoc)
+
+</p>
+
+<br />
+
+<p align="right">
+
+![GitHub](https://img.shields.io/badge/license-MIT-ef5350.svg?style=for-the-badge&logo=Open%20source%20initiative&logoColor=757575)
+
+</p>
