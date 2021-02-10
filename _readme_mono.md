@@ -89,7 +89,7 @@
 
 <br />
 
-{{>main}}
+{{jsdocs}}
 
 <br />
 
@@ -102,9 +102,13 @@
 
 <details>
 <summary><strong>Details</strong></summary>
+  
+  
+<br />
 
+{{coverage}}
 
-### Lcov
+<br />
 
 
 </details>
@@ -113,7 +117,9 @@
 ## Changelog
 
 
-_(Nothing yet)_
+<br />
+
+{{changelog}}
 
 <br />
 
