@@ -14,10 +14,10 @@
 ---
 
 
-# @kb/name
+# @kb/{{name}}
 
 
-description
+{{description}}
 
 <br />
 
@@ -25,7 +25,7 @@ description
 ## Documentation
 
 
-{{>main}}
+{{jsdocs}}
 
 <br />
 
