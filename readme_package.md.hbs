@@ -33,7 +33,7 @@
 
 ## Stack
 
-type: {{stack.type}} | language: {{stack.languageName}} | engines: {{stack.engines}}
+type: {{stack.type}} | language: {{stack.languageName}} | engines: node {{stack.engines.node}} pnpm {{stack.engines.node}}
 
 ## Scripts
 
@@ -45,7 +45,11 @@ type: {{stack.type}} | language: {{stack.languageName}} | engines: {{stack.engin
 
 ## Files
 
-main: {{files.main}} | bin: {{files.bin}} | module: {{files.module}}
+main: {{files.main}} | bin: cli.js | module: {{files.module}}
+
+---
+
+<br />
 
 <p align="center">
 
