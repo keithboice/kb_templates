@@ -1,0 +1,122 @@
+{{> blocks/logo}}
+
+<br />
+
+<br />
+
+<p align="center">
+
+{{> blocks/badges-repo }}
+
+</p>
+
+
+<p align="center">
+
+
+{{> blocks/badges-stack }}
+
+</p>
+
+---
+
+
+# @{{> name}}
+
+
+{{> description}}
+
+
+<br />
+
+
+## Getting Started
+
+
+### Install
+
+```bash
+% git clone {{repository.url}}
+
+% cd {{> name}}
+
+% yarn
+```
+
+
+{{> blocks/install-nuxt }}
+
+
+## Test
+
+```bash
+% yarn run test
+```
+
+## Documentation
+
+```bash
+% yarn run docs
+```
+
+<br />
+
+
+## Documentation
+
+
+<details>
+<summary><strong>Details</strong></summary>
+
+
+<br />
+
+{{> blocks/documentation }}
+
+<br />
+
+
+</details>
+
+
+## Coverage
+
+
+<details>
+<summary><strong>Details</strong></summary>
+
+
+<br />
+
+{{> blocks/coverage }}
+
+<br />
+
+
+</details>
+
+
+## Changelog
+
+
+<br />
+
+{{> blocks/changelog }}
+
+<br />
+
+
+
+{{> blocks/environments }}
+
+
+
+---
+
+Reference: [Code of Conduct]({{repository.url}}/CODE_OF_CONDUCT.md) | [Contributing]({{repository.url}}/CONTRIBUTING.md)
+| [Issues]({{repository.url}}/issues)
+| [Pull Requests]({{repository.url}}/pulls) | [License]({{repository.url}}/LICENSE) | [Security]({{repository.url}}/SECURITY.md)
+
+Getting Help: [Discussions]({{repository.url}}/discussions)
+| [API Docs]({{repository.url}}/docs)
+| [Wiki]({{repository.url}}/wiki)
