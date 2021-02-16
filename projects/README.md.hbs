@@ -6,7 +6,8 @@
 
 <p align="center">
 
-{{> blocks/badges-repo }}
+{{> blocks/badges-repo name=name }}
+
 
 </p>
 
@@ -21,10 +22,10 @@
 ---
 
 
-# @{{> name}}
+# @{{name}}
 
 
-{{> description}}
+{{description}}
 
 
 <br />
@@ -38,7 +39,7 @@
 ```bash
 % git clone {{repository.url}}
 
-% cd {{> name}}
+% cd {{name}}
 
 % yarn
 ```
@@ -107,7 +108,7 @@
 
 
 
-{{> blocks/environments }}
+{{> blocks/environments name=name }}
 
 
 
