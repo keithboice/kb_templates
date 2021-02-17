@@ -6,11 +6,11 @@ Reading and following these guidelines will help us make the contribution proces
 
 ## Quicklinks
 
-* [Code of Conduct](#code-of-conduct)
-* [Getting Started](#getting-started)
-    * [Issues](#issues)
-    * [Pull Requests](#pull-requests)
-* [Getting Help](#getting-help)
+-   [Code of Conduct](#code-of-conduct)
+-   [Getting Started](#getting-started)
+    -   [Issues](#issues)
+    -   [Pull Requests](#pull-requests)
+-   [Getting Help](#getting-help)
 
 ## Code of Conduct
 
@@ -20,10 +20,10 @@ We take our open source community seriously and hold ourselves and other contrib
 
 Contributions are made to this repo via Issues and Pull Requests (PRs). A few general guidelines that cover both:
 
-- To report security vulnerabilities, please use our [Responsible Disclosure Program](https://auth0.com/whitehat) which is monitored by our security team.
-- Search for existing Issues and PRs before creating your own.
-- We work hard to makes sure issues are handled in a timely manner but, depending on the impact, it could take a while to investigate the root cause. A friendly ping in the comment thread to the submitter or a contributor can help draw attention if your issue is blocking.
-- If you've never contributed before, see [the first timer's guide on our blog](https://auth0.com/blog/a-first-timers-guide-to-an-open-source-project/) for resources and tips on how to get started.
+-   To report security vulnerabilities, please use our [Responsible Disclosure Program](https://auth0.com/whitehat) which is monitored by our security team.
+-   Search for existing Issues and PRs before creating your own.
+-   We work hard to makes sure issues are handled in a timely manner but, depending on the impact, it could take a while to investigate the root cause. A friendly ping in the comment thread to the submitter or a contributor can help draw attention if your issue is blocking.
+-   If you've never contributed before, see [the first timer's guide on our blog](https://auth0.com/blog/a-first-timers-guide-to-an-open-source-project/) for resources and tips on how to get started.
 
 ### Issues
 
@@ -35,11 +35,11 @@ If you find an Issue that addresses the problem you're having, please add your o
 
 PRs to our libraries are always welcome and can be a quick way to get your fix or improvement slated for the next release. In general, PRs should:
 
-- Only fix/add the functionality in question **OR** address wide-spread whitespace/style issues, not both.
-- Add unit or integration tests for fixed or changed functionality (if a test suite already exists).
-- Address a single concern in the least number of changed lines as possible.
-- Include documentation in the repo or on our [docs site](https://auth0.com/docs).
-- Be accompanied by a complete Pull Request template (loaded automatically when a PR is created).
+-   Only fix/add the functionality in question **OR** address wide-spread whitespace/style issues, not both.
+-   Add unit or integration tests for fixed or changed functionality (if a test suite already exists).
+-   Address a single concern in the least number of changed lines as possible.
+-   Include documentation in the repo or on our [docs site](https://auth0.com/docs).
+-   Be accompanied by a complete Pull Request template (loaded automatically when a PR is created).
 
 For changes that address core functionality or would require breaking changes (e.g. a major release), it's best to open an Issue to discuss your proposal first. This is not required but can save time creating and reviewing changes.
 
